@@ -1,0 +1,21 @@
+
+
+
+
+
+
+    SELECT c.company_name, d.department_name, e.employee_name
+    FROM Company c
+    LEFT JOIN Department d ON c.company_id = d.company_id
+    LEFT JOIN Employee e ON d.department_id = e.department_id
+    WHERE c.company_name IN ('Kelly and Associates', 'CVS', 'Walmart')
+    AND d.department_name IN ('IT', 'Finance', 'Marketing')
+    AND e.employee_name IN ('Naira', 'John', 'Lucy')
+    ORDER BY c.company_name, d.department_name, e.employee_name;
+
+
+
+
+
+
+
