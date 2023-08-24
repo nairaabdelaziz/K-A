@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-08-23T21:08:15 EDT" name="Default suite" finished-at="2023-08-23T21:08:18 EDT" duration-ms="3077">
+    <groups>
+    </groups>
+    <test started-at="2023-08-23T21:08:15 EDT" name="Default test" finished-at="2023-08-23T21:08:18 EDT" duration-ms="3077">
+      <class name="kellyAndAssociates.PostRequest">
+        <test-method signature="postRequest1()[pri:0, instance:kellyAndAssociates.PostRequest@6f46426d]" started-at="2023-08-23T21:08:15 EDT" name="postRequest1" finished-at="2023-08-23T21:08:18 EDT" duration-ms="2940" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postRequest1 -->
+        <test-method signature="postRequest2()[pri:0, instance:kellyAndAssociates.PostRequest@6f46426d]" started-at="2023-08-23T21:08:18 EDT" name="postRequest2" finished-at="2023-08-23T21:08:18 EDT" duration-ms="68" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postRequest2 -->
+      </class> <!-- kellyAndAssociates.PostRequest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
